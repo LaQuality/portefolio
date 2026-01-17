@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Nunito&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+
+.ombre {
+  box-shadow: 0 -5px 60px rgba(255, 106, 0, 0.35);
+}
+
+.ombreB {
+  box-shadow: 0 -15px 60px rgba(0, 0, 0, 0.35);
+}
