@@ -20,7 +20,7 @@ export default function ListProject() {
     <section className="bg-black text-white grid grid-cols-1 justify-items-center gap-10 mt-20  md:grid-cols-2  " id="projets">
 
          <div className="text-center w-[90%]">
-            <h2 className="text-3xl font-bold mt-5 md:text-6xl  ">Portefolio</h2>
+            <h2 className="text-4xl font-bold mt-5 md:text-6xl  ">Portefolio</h2>
             <p className="md:text-lg">Les projets en cours et incomplet en passant par mes passes temps</p>
          </div>
 

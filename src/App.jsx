@@ -22,7 +22,7 @@ function App() {
            
                 <Bio/>
 
-              <section className="mt-[100vh] ombre relative">
+              <section className="mt-[100vh] ombreB relative">
 
                      
                       <Description/>
