@@ -4,6 +4,8 @@ import Skills from "./Skills"
 
 export default function Description() {
   return (
+
+    <>
     <div className='h-screen text-white   relative '>
         <div className='flex justify-center items-end flex-col text-end mr-4 md:mr-8 '>
 
@@ -21,7 +23,7 @@ export default function Description() {
 
              <button className="bg-orange-500 p-3 cursor-pointer rounded-lg font-bold "  onClick={()=>document.getElementById('my_modal_4').showModal()}>Competences</button>
              
-             <Skills/>
+           
          
          </div>
 
@@ -31,5 +33,9 @@ export default function Description() {
          <img src={avatar} alt="avatar dessin"  className="absolute -bottom-15 left-0 max-h-120 " />
 
     </div>
+
+    <Skills/>
+
+    </>
   )
 }
