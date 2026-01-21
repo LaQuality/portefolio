@@ -6,10 +6,9 @@ export default function ListProject() {
 
    const projets = [ 
          
-        {nom : "You are special", description : "un jeu qui permettra de récuperer tous les élements", lien: "",image: image1,mot:"Mini jeu "},
-        {nom : "Mois de mars", description : "un jeu qui permettra de récuperer tous les élements", lien:"",image:image1,mot:"fun"},
-        {nom : "Mois de mars", description : "un jeu qui permettra de récuperer tous les élements", lien:"",image:image1,mot:"fun"},
-        {nom : "Mois de mars", description : "un jeu qui permettra de récuperer tous les élements", lien:"",image:image1,mot:"fun"}
+        {nom : "You are unique", description : "Un défi réalisé en HTML, CSS et Javascript pure pour le mois de la femme (mars). Consigne : Cliquer sur toutes les images", lien: "https://laquality.github.io/D-fi_0/",image: image1,mot:"Mini Défi "},
+        {nom : "Explore", description : "Un défi interactive consistant a exploré des images de bout en bout . Consigne : utiliser votre doigt ou souris pour découvrir l'image et lacher pour passer à une autre image ", lien:"https://laquality.github.io/D-fi_1/",image:image1,mot:"Mini Défi"},
+        {nom : "Site Green", description : "Site vitrine réalisé pour le fun", lien:"",image:image1,mot:"fun"},
         
      ];
 
@@ -21,9 +20,9 @@ export default function ListProject() {
 
          <div className="text-center w-[90%]">
             <h2 className="text-4xl font-bold mt-5 md:text-6xl  ">Portefolio</h2>
-            <p className="md:text-lg">Les projets en cours et incomplet en passant par mes passes temps</p>
+            <p className="md:text-lg">Une courte liste de projets et défis réalisés</p>
          </div>
-
+         
          {projets.map((projet,index) => (
 
                <Projet key={index}  projet = {projet} />

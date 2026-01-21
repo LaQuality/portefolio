@@ -3,7 +3,7 @@ import profil from "../../public/avatar2.png"
 export default function Bio() {
   return (
     
-       <section className="flex justify-center flex-col md:flex-row h-svh  w-screen md:items-center md:justify-center bg-black text-white fixed top-0 bottom-0 -z-1">
+       <section className="flex justify-center flex-col md:flex-row h-dvh  w-screen md:items-center md:justify-center bg-black text-white fixed top-0 bottom-0 -z-1">
 
 
              {/* <img className=" md:mt-0 opacity-70 absolute -bottom-6 -right-[5vw] md:-right-[22vw]  lg:-right-[15vw]" src={profil} alt="mon profil" /> */}

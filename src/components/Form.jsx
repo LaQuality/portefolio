@@ -39,7 +39,7 @@ export default function Form() {
              <Input fonction ={handelChange} valeur={formData.nom} label={"nom"} type={"text"} exemple={"Johnny Kiko"} Icon = {FaUser}/>
              <Input fonction ={handelChange} valeur={formData.email} label={"email"} type={"email"} exemple={"exemple@gmail.com"} Icon = {FaUser} />
              
-             <Textarea fonction ={handelChange} label={"Message"} exemple={"message"} valeur ={formData.message} ></Textarea> 
+             <Textarea fonction ={handelChange} label={"message"} exemple={"message"} valeur ={formData.message} ></Textarea> 
 
             <div className="w-[90%]">
                 <button type="submit" className="w-30 py-2.5 bg-orange-500 font-bold rounded-lg mt-5" >Envoyer</button>

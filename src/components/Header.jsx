@@ -6,13 +6,13 @@ export default function Header() {
         <header className="flex bg-black h-12 items-center border-b fixed top-0 bottom-0 w-full shadow-2xl shadow-amber-600 z-10">
 
               <div className="w-[40%] flex justify-center gap-3 md:gap-5 md:1/2 ">
-                    <a href="">
+                    <a href="https://www.instagram.com/josue.kiko.925/">
                         <FaInstagram className="text-2xl md:text-3xl text-white hover:scale-110 transition" />
                     </a>
-                    <a href="">
+                    <a href="https://cd.linkedin.com/in/josu%C3%A9-johnny-kiko-6bba89334">
                         <FaLinkedin className="text-2xl  md:text-3xl text-white hover:scale-110 transition" />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/LaQuality">
                         <FaGithub className="text-2xl  md:text-3xl text-white hover:scale-110 transition" />
                     </a>
 
