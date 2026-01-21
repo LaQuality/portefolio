@@ -25,16 +25,19 @@ export default function Skills() {
   return (
    
      <dialog id="my_modal_4" className="modal z-10 backdrop-blur-sm flex flex-col justify-center  text-white">
-            <div className="modal-box w-11/12 max-w-5xl h-[75vh] md:[80vh] bg-black border border-orange-500 shadow-xl shadow-black text-center">
-                <h3 className="font-bold text-4xl">Skills</h3>
-                <p className="py-4">Click the button below to close</p>
-
-                <div className="grid grid-cols-1 md:grid-cols-3">
+            <div className="modal-box w-11/12 max-w-5xl h-[75vh] md:[80vh] bg-black border border-orange-500 shadow-xl shadow-black text-center relative">
+                
+                <div className="sticky bg-black text-center  w-full top-0 left-0 shadow-2xl shadow-black">
+                      <h3 className="font-bold text-4xl">Skills</h3>
+                      <p className="py-4">Click the button below to close</p>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 mt-8">
                    
                     {skills.map((skill,index) => (
 
                          <div className="flex flex-col items-center" key={index}>
-                            <img src={skill.image} className="h-25  w-30" alt="logo" />
+                            <img src={skill.image} className=" h-15 w-15 md:h-25  md:w-30" alt="logo" />
                             <span className="font-bold mt-2 mb-5">{skill.name}</span>
                          </div>
 

@@ -28,7 +28,7 @@ export default function Description() {
          </div>
 
           
-
+        
 
          <img src={avatar} alt="avatar dessin"  className="absolute -bottom-15 left-0 max-h-120 " />
 

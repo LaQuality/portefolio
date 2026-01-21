@@ -14,6 +14,17 @@ body {
   background-color: black;
 }
 
+.ombreT::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  pointer-events: none;
+}
+
 .ombre {
   box-shadow: 0 -5px 60px rgba(255, 106, 0, 0.35);
 }
