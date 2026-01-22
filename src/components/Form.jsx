@@ -3,6 +3,7 @@ import Input from "./form/Input";
 import Textarea from "./form/Textarea";
 import { toast } from 'sonner'
 import { FaUser} from "react-icons/fa"
+import emailjs from "@emailjs/browser"
 
 export default function Form() {
 
@@ -20,13 +21,31 @@ export default function Form() {
 
    }
 
-   const handleSubmit = (e) => {
+   const handleSubmit = async (e) => {
 
-          e.preventDefault();
+            e.preventDefault();
 
-          SetFormData({nom :"",email:"", message:""});
+          
+            try{
+               await emailjs.send( 
 
-          toast.success('Message envoyé avec succès 🎉')
+                      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                      formData,
+                      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+
+                );
+
+                toast.success('Message envoyé avec succès 🎉');
+                SetFormData({nom :"",email:"", message:""});
+
+
+            }catch(error){
+          
+                  
+                toast.error('Message non envoyé, réessayez plus tard ');
+            }
+            
 
     }
 
@@ -42,7 +61,7 @@ export default function Form() {
              <Textarea fonction ={handelChange} label={"message"} exemple={"message"} valeur ={formData.message} ></Textarea> 
 
             <div className="w-[90%]">
-                <button type="submit" className="w-30 py-2.5 bg-orange-500 font-bold rounded-lg mt-5" >Envoyer</button>
+                <button type="submit" className="w-30 py-2.5 bg-orange-500 font-bold rounded-lg mt-5 cursor-pointer" >Envoyer</button>
             </div>
 
        </form>
