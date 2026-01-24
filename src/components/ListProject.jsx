@@ -1,7 +1,7 @@
 import Projet from "./Projet";
-import image1 from "../../public/projets/projet1.jpg"
-import image2 from "../../public/projets/femmes.jpg"
-import image3 from "../../public/projets/search.jpg"
+import image2 from "../../public/projets/search.jpg"
+import image1 from "../../public/projets/femmes.jpg"
+import image3 from "../../public/projets/green.jpg"
 
 
 
@@ -10,9 +10,9 @@ export default function ListProject() {
 
    const projets = [ 
          
-        {nom : "You are unique", description : "Un défi réalisé en HTML, CSS et Javascript pure pour le mois de la femme (mars). Consigne : Cliquer sur toutes les images", lien: "https://laquality.github.io/D-fi_0/",image: image2,mot:"Mini Défi "},
-        {nom : "Explore", description : "Un défi interactive consistant a exploré des images de bout en bout . Consigne : utiliser votre doigt ou souris pour découvrir l'image et lacher pour passer à une autre image ", lien:"https://laquality.github.io/D-fi_1/",image:image3,mot:"Mini Défi"},
-        {nom : "Site Green", description : "Site vitrine réalisé pour le fun", lien:"",image:image1,mot:"fun"},
+        {nom : "You are unique", description : "Un défi réalisé en HTML, CSS et Javascript pure pour le mois de la femme (mars). Consigne : Cliquer sur toutes les images", lien: "https://laquality.github.io/D-fi_0/",image: image1,mot:"Mini Défi "},
+        {nom : "Explore", description : "Un défi interactive consistant a exploré des images de bout en bout . Consigne : utiliser votre doigt ou souris pour découvrir l'image et lacher pour passer à une autre image ", lien:"https://laquality.github.io/D-fi_1/",image:image2,mot:"Mini Défi"},
+        {nom : "Site Green", description : "Site vitrine réalisé pour le fun", lien:"",image:image3,mot:"fun"},
         
      ];
 

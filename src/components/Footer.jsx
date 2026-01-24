@@ -14,6 +14,7 @@ export default function Footer() {
               <li> <a href="https://fr.freepik.com/vecteurs-libre/garcon-qui-etudie-ordinateur-portable-illustration_88805085.htm#fromView=search&page=2&position=13&uuid=e2b52817-4667-456a-ba0e-e01d19726549&query=personnage+informaticien+dessin ">Image de djvstock sur Freepik</a></li>
               <li> <a href="https://www.freepik.com/free-photo/close-up-hand-with-magnifying-glass_13662469.htm#fromView=search&page=1&position=24&uuid=6eb48255-4d59-470c-bd33-f30a5cee4d73&query=recherche+">Image by freepik</a></li>
               <li> <a href="https://www.freepik.com/free-photo/kids-participating-treasure-hunt_16621685.htm#fromView=search&page=1&position=42&uuid=6d34ba8f-6846-471b-8971-dce8b44c86b3&query=jeux+de+recherche">Image by freepik</a></li>
+              <li><a href="https://www.freepik.com/free-photo/photographer-taking-picture-ocean-coast_28006102.htm#fromView=search&page=1&position=4&uuid=32a37f06-5329-4a80-921c-8c2c6f712c23&query=photographe+nature">Image by HelloDavidPradoPerucha on Freepik</a></li>
             </ul>
         </div>
          
