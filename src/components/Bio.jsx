@@ -15,7 +15,7 @@ export default function Bio() {
              <img className=" md:mt-0 absolute -bottom-12 -right-[40vw] md:-right-[22vw]  lg:-right-[15vw]" src={profil} alt="mon profil" /> */}
 
                 <model-viewer 
-                src="/macbook.glb"
+                src="https://laquality.github.io/portefolio/macbook.glb"
                 alt="Une voiture noire en 3D"
                 class="h-screen w-screen   absolute -bottom-[35vh] -right-[10vh] md:bottom-0 md:-right-[50vh]  "
                 camera-controls="false"
