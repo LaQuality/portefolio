@@ -15,7 +15,7 @@ export default function Bio() {
              <img className=" md:mt-0 absolute -bottom-12 -right-[40vw] md:-right-[22vw]  lg:-right-[15vw]" src={profil} alt="mon profil" /> */}
 
                 <model-viewer 
-                src="portefolio/macbook.glb"
+                src="/macbook.glb"
                 alt="Une voiture noire en 3D"
                 class="h-screen w-screen   absolute -bottom-[35vh] -right-[10vh] md:bottom-0 md:-right-[50vh]  "
                 camera-controls="false"
@@ -33,7 +33,7 @@ export default function Bio() {
            
              <div className="absolute bottom-5 left-0 w-full flex flex-col items-center ">
 
-                      <a className="bg-orange-500 p-3 cursor-pointer rounded-full  font-bold z-20 " href="#two"><FaArrowDown /></a>
+                      <a className="bg-orange-500 p-4 cursor-pointer rounded-full  font-bold z-20 " href="#two"><FaArrowDown /></a>
                           
              </div>
 
