@@ -1,9 +1,9 @@
 import { AiOutlineClose } from "react-icons/ai";
-import reactLogo from "../../public/skills/react.svg"
-import html from "../../public/skills/html.svg"
-import figma from "../../public/skills/figma.svg"
-import css from "../../public/skills/css.svg"
-import tailwind from "../../public/skills/tailwind.svg"
+import reactLogo from "/skills/react.svg"
+import html from "/skills/html.svg"
+import figma from "/skills/figma.svg"
+import css from "/skills/css.svg"
+import tailwind from "/skills/tailwind.svg"
 
 
 

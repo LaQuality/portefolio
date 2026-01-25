@@ -22,7 +22,7 @@ function App() {
            
                 <Bio/>
 
-              <section className="mt-[100vh] relative">
+              <section className="mt-[100vh] relative scroll-mt-70" id="two">
 
                      
                       <Description/>

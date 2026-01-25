@@ -1,4 +1,4 @@
-import avatar from "../../public/me.png"
+import avatar from "/me.png"
 import Skills from "./Skills"
 
 
@@ -12,7 +12,7 @@ export default function Description() {
         
             <h2 className='text-4xl md:text-6xl font-bold mt-20'>Qui <span className="text-orange-500">suis</span>-je ? </h2>
             
-            <p className="text-md max-w-[90%] ">Passionné par l’informatique, l’apprentissage et la créativité, je suis titulaire d’un Master en Conception des Systèmes d’Information obtenu à l’UCC.
+            <p className="text-md md:text-lg max-w-[90%] ">Passionné par l’informatique, l’apprentissage et la créativité, je suis titulaire d’un Master en Conception des Systèmes d’Information obtenu à l’UCC.
                     Curieux et audacieux, j’aime expérimenter, sortir de ma zone de confort et transformer les idées en solutions concrètes.
                     L’échec ne me freine pas : il m’aide à progresser.
 
