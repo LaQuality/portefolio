@@ -4,6 +4,8 @@ import html from "/skills/html.svg"
 import figma from "/skills/figma.svg"
 import css from "/skills/css.svg"
 import tailwind from "/skills/tailwind.svg"
+import bootstrap from "/skills/bootstrap.svg"
+
 
 
 
@@ -16,6 +18,7 @@ export default function Skills() {
         {image : html, name : "HTML"},
         {image : css, name : "CSS"},
         {image : tailwind, name : "Tailwind CSS"},
+        {image : bootstrap, name : "Bootstrap"},
         {image : figma, name : "Figma"}
 
     ]
@@ -28,7 +31,7 @@ export default function Skills() {
             <div className="modal-box w-11/12 max-w-5xl h-[75vh] md:[80vh] bg-black border border-orange-500 shadow-xl shadow-black text-center relative">
                 
                 <div className="sticky bg-black text-center  w-full -top-9 md:top-0 pt-7 md:pt-0 left-0 shadow-2xl shadow-black">
-                      <h3 className="font-bold text-4xl">Skills</h3>
+                      <h3 className="font-bold text-4xl">Skills en Frontend</h3>
                       <p className="py-4">Scroller pour découvrir plus</p>
                 </div>
                 
